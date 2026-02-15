@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trattoria LUCE（トラットリア ルーチェ）- 落ち着いた大人のための隠れ家イタリアン。静かな夜に、特別な一皿を。">
+    <meta name="keywords" content="イタリアン, レストラン, ディナー, 記念日, 接待, 隠れ家">
+    
+    <!-- OGP -->
+    <meta property="og:title" content="Trattoria LUCE | 隠れ家イタリアンレストラン">
+    <meta property="og:description" content="落ち着いた大人のための隠れ家イタリアン。静かな夜に、特別な一皿を。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trattoria-luce.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200">
+    
+    <title>Trattoria LUCE | 隠れ家イタリアンレストラン</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href__="https://fonts.googleapis.com">
+    <link rel="preconnect" href__="https://fonts.gstatic.com" crossorigin>
+    <link href__="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href__="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href__="#" class="logo">
+                <span class="logo-main">Trattoria</span>
+                <span class="logo-sub">LUCE</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href__="#home" class="nav-link">Home</a></li>
+                    <li><a href__="#concept" class="nav-link">Concept</a></li>
+                    <li><a href__="#menu" class="nav-link">Menu</a></li>
+                    <li><a href__="#access" class="nav-link">Access</a></li>
+                    <li><a href__="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">
+                    <span class="hero-title-main">静かな夜に、特別な一皿を。</span>
+                </h1>
+                <p class="hero-subtitle fade-in">
+                    大切な人との時間を、心を込めた料理とともに。
+                </p>
+                <a href__="#contact" class="btn btn-primary fade-in">ご予約・お問い合わせ</a>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll</span>
+                <div class="hero-scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section class="concept section" id="concept">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Concept</span>
+                    <h2 class="section-title">私たちの想い</h2>
+                </div>
+                
+                <div class="concept-content">
+                    <div class="concept-text fade-in">
+                        <p>
+                            「Trattoria LUCE」は、イタリア語で"光"を意味する「LUCE」の名を冠した、
+                            静寂と温もりが共存する隠れ家レストランです。
+                        </p>
+                        <p>
+                            喧騒から離れた空間で、厳選されたイタリア各地の食材と、
+                            熟練シェフの技が織りなす一皿一皿をお届けいたします。
+                            記念日のお祝いから、大切な方とのひととき、ビジネスの会食まで、
+                            お客様の特別な時間を彩るお手伝いをさせていただきます。
+                        </p>
+                        <p>
+                            窓から差し込む柔らかな光のように、
+                            心に残る穏やかな時間をお過ごしください。
+                        </p>
+                        <div class="concept-signature">
+                            <span>Chef</span>
+                            <span class="signature">Takeshi Yamamoto</span>
+                        </div>
+                    </div>
+                    <div class="concept-image fade-in">
+                        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80" alt="シェフが料理を仕上げる様子">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu section" id="menu">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Menu</span>
+                    <h2 class="section-title">コース料理</h2>
+                </div>
+                
+                <div class="menu-grid">
+                    <!-- LUCE Course -->
+                    <article class="menu-card fade-in">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=600&q=80" alt="LUCEコース">
+                        </div>
+                        <div class="menu-card-content">
+                            <span class="menu-card-label">Standard</span>
+                            <h3 class="menu-card-title">LUCE コース</h3>
+                            <p class="menu-card-description">
+                                前菜からドルチェまで、当店の魅力を凝縮したスタンダードコース。
+                                初めての方にもおすすめです。
+                            </p>
+                            <div class="menu-card-details">
+                                <span>全7品</span>
+                                <span class="menu-card-price">¥8,000</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Seasonal Course -->
+                    <article class="menu-card fade-in">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=600&q=80" alt="季節の特別コース">
+                        </div>
+                        <div class="menu-card-content">
+                            <span class="menu-card-label">Seasonal</span>
+                            <h3 class="menu-card-title">季節の特別コース</h3>
+                            <p class="menu-card-description">
+                                旬の食材をふんだんに使用した、季節限定のスペシャルコース。
+                                四季折々の味わいをお楽しみください。
+                            </p>
+                            <div class="menu-card-details">
+                                <span>全9品</span>
+                                <span class="menu-card-price">¥12,000</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Anniversary Course -->
+                    <article class="menu-card fade-in">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="記念日ディナーコース">
+                        </div>
+                        <div class="menu-card-content">
+                            <span class="menu-card-label">Anniversary</span>
+                            <h3 class="menu-card-title">記念日ディナーコース</h3>
+                            <p class="menu-card-description">
+                                特別な日にふさわしい、シェフ渾身のプレミアムコース。
+                                メッセージプレート付きでお祝いを演出します。
+                            </p>
+                            <div class="menu-card-details">
+                                <span>全11品</span>
+                                <span class="menu-card-price">¥15,000</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <p class="menu-note fade-in">
+                    ※ 価格は全て税込です。サービス料10%を別途頂戴いたします。<br>
+                    ※ アレルギーをお持ちの方は事前にお知らせください。
+                </p>
+            </div>
+        </section>
+
+        <!-- Access Section -->
+        <section class="access section" id="access">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Access</span>
+                    <h2 class="section-title">アクセス</h2>
+                </div>
+                
+                <div class="access-content">
+                    <div class="access-info fade-in">
+                        <div class="access-item">
+                            <h3>住所</h3>
+                            <p>
+                                〒106-0032<br>
+                                東京都港区六本木3-14-12<br>
+                                LUCEビル 2F
+                            </p>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h3>営業時間</h3>
+                            <dl class="access-hours">
+                                <div>
+                                    <dt>ランチ</dt>
+                                    <dd>11:30 - 14:30（L.O. 13:30）</dd>
+                                </div>
+                                <div>
+                                    <dt>ディナー</dt>
+                                    <dd>18:00 - 23:00（L.O. 21:30）</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h3>定休日</h3>
+                            <p>毎週月曜日・第3火曜日</p>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h3>アクセス</h3>
+                            <p>
+                                東京メトロ日比谷線「六本木駅」3番出口より徒歩3分<br>
+                                都営大江戸線「六本木駅」5番出口より徒歩5分
+                            </p>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h3>お電話</h3>
+                            <p class="access-tel">03-1234-5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="access-map fade-in">
+                        <div class="map-placeholder">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.169541255697!2d139.7292849!3d35.6627289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b771049dc33%3A0x5c0236b3d3d5d7b2!2z5YWt5pys5pyo!5e0!3m2!1sja!2sjp!4v1234567890"
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Trattoria LUCE 地図">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Contact</span>
+                    <h2 class="section-title">ご予約・お問い合わせ</h2>
+                </div>
+                
+                <div class="contact-content">
+                    <p class="contact-lead fade-in">
+                        ご予約・ご質問など、お気軽にお問い合わせください。<br>
+                        お電話でのご予約も承っております。
+                    </p>
+                    
+                    <form 
+                        name="contact" 
+                        method="POST" 
+                        data-netlify="true" 
+                        class="contact-form fade-in"
+                        id="contactForm"
+                    >
+                        <input type="hidden" name="form-name" value="contact">
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                お名前 <span class="required">必須</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input" 
+                                placeholder="山田 太郎"
+                                required
+                            >
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                メールアドレス <span class="required">必須</span>
+                            </label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input" 
+                                placeholder="example@email.com"
+                                required
+                            >
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tel" class="form-label">
+                                電話番号 <span class="optional">任意</span>
+                            </label>
+                            <input 
+                                type="tel" 
+                                id="tel" 
+                                name="tel" 
+                                class="form-input" 
+                                placeholder="090-1234-5678"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date" class="form-label">
+                                ご予約希望日時 <span class="optional">任意</span>
+                            </label>
+                            <input 
+                                type="datetime-local" 
+                                id="date" 
+                                name="date" 
+                                class="form-input"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">
+                                お問い合わせ内容 <span class="required">必須</span>
+                            </label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-textarea" 
+                                rows="5"
+                                placeholder="ご予約の詳細やご質問など、お気軽にご記入ください。"
+                                required
+                            ></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>送信する</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href__="#" class="logo footer-logo">
+                        <span class="logo-main">Trattoria</span>
+                        <span class="logo-sub">LUCE</span>
+                    </a>
+                    <p class="footer-tagline">静かな夜に、特別な一皿を。</p>
+                </div>
+                
+                <div class="footer-info">
+                    <p>〒106-0032 東京都港区六本木3-14-12 LUCEビル 2F</p>
+                    <p>TEL: 03-1234-5678</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Trattoria LUCE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
